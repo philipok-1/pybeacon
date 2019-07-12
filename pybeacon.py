@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 from bluepy.btle import Scanner, DefaultDelegate
 
 import time

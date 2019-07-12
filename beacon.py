@@ -17,8 +17,8 @@ class ScanDelegate(DefaultDelegate):
 scanner = Scanner().withDelegate(ScanDelegate())
 
 
-#names={'D1:0E:28:2D:71:AA':{'Name':"Puck1", 'DM':3}, 'B2:2B:0A:54:1C:82':{'Name':"ITAG1",'DM':10}, 'F3:0D:B4:19:E1:9D':{'Name':"Tile", 'DM':10}}
-names={'D1:0E:28:2D:71:AA':{'Name':"Puck1", 'DM':3}}
+names={'D1:0E:28:2D:71:AA':{'Name':"Puck1", 'DM':3}, 'B2:2B:0A:54:1C:82':{'Name':"ITAG1",'DM':10}, 'F3:0D:B4:19:E1:9D':{'Name':"Tile", 'DM':10}}
+#names={'D1:0E:28:2D:71:AA':{'Name':"Puck1", 'DM':3}}
 
 
 def get_distance(rssi):
