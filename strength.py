@@ -40,7 +40,7 @@ while True:
     devices= scanner.scan(2)
 
     for dev in devices:
- #       print ("Device %s (%s), RSSI=%d dB" % (dev.addr, dev.addrType, dev.rssi))
+        print ("Device %s (%s), RSSI=%d dB" % (dev.addr, dev.addrType, dev.rssi))
         ID=dev.addr.upper()
     
         if ID in names:
